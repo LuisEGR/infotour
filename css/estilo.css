@@ -1,0 +1,190 @@
+	@font-face {
+	  font-family: 'Lobster';	    
+	    src: local('Lobster'), /* Para el resto de navegadores */
+	         url('Lobster.otf');
+	}
+	
+	body,html{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background:url('../img/crissXcross.png');
+	}
+	#head{
+		background: #222;
+		width: 100%;
+		height: 80px;
+	}
+	#principal{
+		height: 100%;
+		overflow: hidden;
+	}
+	#contenido{		
+		position: relative;
+		width: 100%;
+		background: rgb(250, 252, 255);
+		box-shadow: inset 0 0 50px rgba(0,0,0,0.5);		
+		overflow: auto;
+	}
+	#menu{				
+		position: relative;	
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -102px;
+		color: #FFFFFF; 
+		cursor: pointer;
+	}
+	#footer{		
+		position: relative; 
+		margin-top: 5px; 
+		height: 50px; 
+		clear: both; 
+		padding: 10px;
+		background: #222;
+		text-align: center; 
+		color: #FFFFFF; 
+		font-family: Lobster;
+		font-size: 30pt;
+	}
+	#web{
+		width: 100%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background:url('../img/crissXcross.png');
+		
+	}
+	#menuu{
+	position: relative;
+	width: auto;
+	top: 20px;
+	float: right;
+	}
+	#menuu>li{
+		font-family: Lobster;
+		font-size: 15pt;
+		display: block;	
+		background: rgba(202, 193, 248,0);
+		width: 180px;
+		border: 0px solid #999;
+		margin-top: 10px;
+		border-left: 2px solid rgba(200,200,200,0.3);
+		padding: 5px;
+		float: left;
+	}
+	#user_menu{
+		color:#89C7FA;
+	}
+	#menuu>li:hover{
+		scolor: #67BBEB;
+	}
+	h1{
+		font-family: Lobster;
+		font-size: 40pt;
+	}
+	#w3{
+		position: relative;
+		left: 90px;
+	}
+	#titulo{
+		position: relative;
+		font-size: 40pt;
+		font-family: Lobster;
+		color: #eee;
+		margin-left: 25px;
+		top: 3px;
+	}
+	#slide{
+		position: relative;
+		width: 100%;
+		height: 300px;
+		background: url('../img/spac.jpg');
+		background-position: 0 500px; 
+		box-shadow: inset 0 20px 15px rgba(0,0,0,0.3), 0 10px 25px rgba(0,0,0,0.3);
+	}
+	#cols{
+		width: 1000px;
+		min-height: 53%;
+		margin: 0 auto;
+		}
+	.index-cont{
+		position: relative;
+		height: 400px;
+		padding: 15px;
+		margin-left: -45px;
+		background-color: #fff;
+	}
+	#lef{
+		position: relative;
+		float: left;		
+		box-shadow: inset 0 0px 115px rgba(0,0,0,0.3),0 10px 25px rgba(0,0,0,0.3);
+		width: 33%;
+		border-radius: 0 0 0 15px;
+	}	
+	#cen{
+		position: relative;
+		margin: 0 auto;
+		width: 33%;
+		text-align: center;
+		box-shadow: inset 0 0px 115px rgba(0,0,0,0.3),0 10px 25px rgba(0,0,0,0.3);
+	}
+	#rig{
+		position: relative;
+		float: right;
+		left: 45px;
+		width: 33%;
+		box-shadow: inset 0 0px 115px rgba(0,0,0,0.3),0 10px 25px rgba(0,0,0,0.3);
+		border-radius: 0 0 15px 0;
+	}
+	#subt{
+		font-family: Lobster;
+		font-size: 22pt;
+	}
+	.comentario{
+		overflow: hidden;
+		height: 90px;
+		padding: 5px;
+		background: -moz-linear-gradient(top,  rgba(214,214,214,0.52) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,214,214,0.52)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(214,214,214,0.52) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(214,214,214,0.52) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(214,214,214,0.52) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(214,214,214,0.52) 0%,rgba(255,255,255,0) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85d6d6d6', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+	.comentario>img{
+		width: 90px;
+	}
+	.coment{
+		position: relative;
+		float: right;
+		width: 202px;
+		font-family: Lobster;
+		display: block;
+	}
+	.calif-index{
+		position: relative;
+		float: right;
+		width: auto;
+		top: -25px;
+		font-family: Lobster;
+		font-size: 8pt;
+		
+	}
+	.calif-index>img{
+		width: 10px;
+		margin: -1px
+	}
+	.calif-index>a{
+		text-decoration: none;
+		color: #336BE0
+	}
+	#comentarios{
+		position: relative;
+		height: 362px;
+		overflow: hidden;
+	}
